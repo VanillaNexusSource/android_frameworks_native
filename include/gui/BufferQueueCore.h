@@ -323,7 +323,7 @@ private:
           transform(_transform),
           scalingMode(_scalingMode),
           dataspace(_dataspace) {
-        };
+        }
 
         Rect crop;
         uint32_t transform;
