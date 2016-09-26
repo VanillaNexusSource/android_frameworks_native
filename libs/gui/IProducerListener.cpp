@@ -82,4 +82,8 @@ bool BnProducerListener::needsReleaseNotify() {
     return true;
 }
 
+ProducerListener::~ProducerListener() = default;
+
+DummyProducerListener::~DummyProducerListener() = default;
+
 } // namespace android
